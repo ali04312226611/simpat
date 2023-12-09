@@ -7,7 +7,8 @@
     padding: 15px;
 }
 .body{
-    background-color: rgb(53, 115, 39);
+    background-color: transparent;
+    
    
     height: 70vh;
     position: relative;
@@ -38,4 +39,7 @@
 .body h6{
     text-align: center;
     color: rgb(250, 226, 2);
+}
+.aboutpic{
+    background-image: url(../../assets/images/pexels-pixabay-163007.jpg);
 }

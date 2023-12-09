@@ -4,11 +4,16 @@ import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
 import NavDropdown from "react-bootstrap/NavDropdown";
 import logo from "../../../assets/images/Untitled-1.png";
-import { NavLink } from "react-bootstrap";
 import { Link } from "react-router-dom";
+import { useState } from "react";
+import {isLogin} from "../../../Utils";
 
 const MyNavbar = () => {
-  const expand="md"
+  const[loginStatus,setLoginStatus]=useState(isLogin() ? 'خروج':'ورود')
+  const logoutHandler=()=>{
+    document.cookie = "username=admin; expires=Thu, 18 Dec 2020 12:00:00 UTC; path=/";
+    setLoginStatus('ورود')
+  }
   return (
     <div className="container-fluid navbar-1">
       <div className="container ">
@@ -44,9 +49,10 @@ const MyNavbar = () => {
                 <Link to="/contact" className="text-white decor">
                   تماس با ما
                 </Link>
-                <Link to='/login' className="text-white decor">
-                  ورود
-                </Link>
+                {isLogin() ?
+               <Link to='/login' onClick={logoutHandler} className="text-white decor"> {loginStatus}</Link> 
+               :<Link to='/login' className="text-white decor"> {loginStatus}</Link>
+              }
                 <Link to='/panel' className="text-white decor">
                    داشبورد
                 </Link>

@@ -4,7 +4,7 @@ const About = () => {
   return (
     <div>
       <MyNavbar />
-      <div className="container">
+      <div className="container aboutpic">
         <div className="cloumn">
           <div className="head">
             <h4 className="text-white pt-3">شرکت سیستم های هوشمند سیم پات البرز</h4>

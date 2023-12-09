@@ -9,9 +9,9 @@ const Panel = () => {
           <MyNavbar />
           
           <h1 className="text-white panel">welcome to panel page</h1>
-          
         </div>
       
-  );
+      );
+    
 };
 export default Panel;

@@ -63,7 +63,7 @@ const Contact = () => {
               </label>
             </div>
             <button type="submit" className="btn btn-primary">
-              Submit
+              ارسال درخواست
             </button>
           </form>
         </div>

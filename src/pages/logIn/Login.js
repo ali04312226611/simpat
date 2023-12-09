@@ -8,7 +8,8 @@ const Login = () => {
     const [password ,setPassword]=useState('')
     const navigate =useNavigate()
 const submitHandler =()=>{
-    if (username=="admin" && password==123456){
+    if (username=="admin" && password=='123456'){
+      document.cookie = "username=admin; expires=Thu, 18 Dec 2025 12:00:00 UTC; path=/";
         navigate('/panel')
     }else{
         Swal.fire({
@@ -57,7 +58,7 @@ const submitHandler =()=>{
               </div>
             
               <button onClick={submitHandler} type="button" className="btn btn-primary">
-                Submit
+                ورود
               </button>
             </form>
           </div>
