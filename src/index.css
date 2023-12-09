@@ -1,0 +1,14 @@
+body {
+    padding: 20px;
+}
+@font-face {
+    font-family: "yekan";
+    src: url(./assets/fonts/Yekan.ttf);
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "yekan" , sans-serif;
+
+}

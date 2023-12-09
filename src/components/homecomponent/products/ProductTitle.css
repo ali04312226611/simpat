@@ -1,0 +1,6 @@
+.abouttext1{
+    background-color: transparent;
+    backdrop-filter: blur(15px);
+    box-shadow: 1px 1px 5px rgb(19, 18, 18);
+    border-radius: 10px;
+}

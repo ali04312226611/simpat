@@ -1,0 +1,32 @@
+
+.navbar-1{
+  position: sticky;
+  top: 0;
+  background-color: transparent;
+  backdrop-filter: blur(30px);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  z-index: 2;
+  font-size: large;
+  box-shadow: 1px 1px 5px black;
+  border-radius: 15px;
+}
+#navbarScrollingDropdown{
+  color: white;
+  padding: 10px;
+  text-align: center;
+  
+}
+.active {
+  border-bottom: 2px solid black;
+}
+.decor {
+  text-decoration: none;
+  padding: 9px;
+  text-align: center;
+  
+}
+
+
+

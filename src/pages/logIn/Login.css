@@ -1,0 +1,25 @@
+.login {
+    background-image: url(../../assets/images/golden-crop-wheat-farm-landscape-nature.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.loginform{
+    /* background-color: transparent;
+    backdrop-filter: blur(15px); */
+    height: 100vh;
+    padding: 10px;
+    margin-top: 20px;
+    border-radius: 15px;
+}
+label{
+    color: rgb(255, 255, 255);
+    font-size: 25px;
+    font-weight: bolder;
+}
+.log{
+    background-color: transparent;
+    backdrop-filter: blur(15px);
+    padding: 50px;
+    box-shadow: 5px 5px 10px black;
+    border-radius: 15px;
+}

@@ -1,0 +1,26 @@
+textarea{
+    width: 100%;
+   
+}
+.contactnumber {
+    text-align: center;
+}
+.cantactmain{
+    background-color: transparent;
+    backdrop-filter: blur(15px);
+    margin-top: 20px;
+    height: 90vh;
+    
+}
+.contact1 {
+    background-image: url(../../assets/images/pexels-pixabay-163007.jpg);
+    background-size: cover;
+    background-position: center;
+    
+    height: 100vh;
+}
+.colcontact{
+    background-color: transparent;
+    backdrop-filter: blur(15px);
+    padding: 30px;
+}

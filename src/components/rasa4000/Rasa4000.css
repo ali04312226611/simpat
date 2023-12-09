@@ -1,0 +1,5 @@
+.products2{
+    min-height: 95vh;
+    background-color: transparent;
+    backdrop-filter: blur(15px);
+}

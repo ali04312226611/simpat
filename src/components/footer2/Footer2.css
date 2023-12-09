@@ -1,0 +1,8 @@
+.footer1{
+    text-align: center;
+}
+.footer {
+    background-color: transparent;
+    backdrop-filter: blur(15px);
+    border-radius: 10px;
+}

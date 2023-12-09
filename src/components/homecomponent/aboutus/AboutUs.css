@@ -1,0 +1,6 @@
+.abouttext1{
+    background-color: transparent;
+    backdrop-filter: blur(15px);
+    font-size: large;
+    text-align: justify;
+}
